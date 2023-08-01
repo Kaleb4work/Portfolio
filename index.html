@@ -10,7 +10,57 @@
 </head>
 
     <body>
-    Hallo
+
+    <!--Nav-Bereich für Desktops-->
+    <nav id="DESKTOP-NAV">
+
+        <div class="Logo">Kaleb Pohl</div>
+
+        <div>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Nav-Bereich für Handys und Tablets-->
+    <nav id="HAMBURGER-NAV">
+
+        <div class="Logo">Kaleb Pohl</div>
+
+        <!--Hamburger im geschlossenen Zustand ohne Menü-->
+        <div class="hamburger-menü">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        <!--Aufgeklappter Hamburger im geöffnetem Zustand + Menü-->
+            <div class="menu-links">
+                <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!--Profilbereich -->
+    <section id="profil">
+        <div class="Section_Foto-Container">
+            <img src="assets/Profil-Pic-1,2.jpg" alt="Kaleb Pohl Profilbild">
+        </div>
+        <div class="Section_text">
+            <p class="Section_text_p1">Willkommen, ich bin</p>
+            <h1 class="title">Kaleb Asare Baffour Pohl</h1>
+            <p class="Section_text_p2">Student der HAW Hamburg</p>
+
+        </div>
+    </section>
     <script src="script.js"></script>
     </body>
 

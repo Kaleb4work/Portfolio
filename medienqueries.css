@@ -1,0 +1,9 @@
+/* Wenn der Screen kleiner als 1200px ist soll er ausgetauscht werden mit dem Hamburger Nav*/
+@media screen and (max-width: 1200px){
+    #DESKTOP-NAV{
+        display: none;
+    }
+    #HAMBURGER-NAV{
+        display: flex;
+    }
+}
