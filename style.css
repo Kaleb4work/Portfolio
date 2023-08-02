@@ -26,7 +26,7 @@ p {
 /* Übergang vom Hover*/
 a,
 .btn{
-    transition: all 300ms ease;
+    transition: all 450ms ease;
 }
 
 /*Desktop-Nav*/
@@ -54,8 +54,7 @@ a{
 }
 
 a:hover{
-    color: lightgrey;
-    text-decoration: underline;
+    color: lightslategrey;
     text-underline-offset: 1rem;
 }
 
@@ -137,8 +136,8 @@ a:hover{
 /*SECTIONS*/
 
 section{
-    padding: 4vh;
-    height: 96vh;
+    padding: 3vh;
+    height: 97vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
