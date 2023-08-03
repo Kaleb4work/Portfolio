@@ -29,6 +29,8 @@ a,
     transition: all 450ms ease;
 }
 
+
+
 /*Desktop-Nav*/
 
 nav, .nav-links{/* Gilt für Alle Objekte im Nav und alle Objekte in der Liste*/
@@ -201,6 +203,50 @@ section{
     cursor: pointer;
     height: 2rem;
 }
+
+#About{
+    position: relative;
+}
+
+.about-container{
+    gap: 2rem;
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
+
 
 
 
