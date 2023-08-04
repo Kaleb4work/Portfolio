@@ -198,10 +198,9 @@ section{
 }
 
 /*Icons*/
-
 .icon{
-    cursor: pointer;
     height: 2rem;
+    cursor: pointer;
 }
 
 #About{
@@ -228,15 +227,17 @@ section{
 
 .arrow{
     position: absolute;
-    right: -5rem;
+    right: 5rem;
     bottom: 2.5rem;
+    height: 2rem;
+    cursor: pointer;
 }
 
 .details-container{
-    padding: 1.5rem;
+    padding: 2rem;
     flex: 1;
     background: white;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163,163,163);
     text-align: center;
@@ -247,6 +248,81 @@ section{
     height: 80%;
 }
 
+/*Kenntnisse*/
 
+#Kenntnisse{
+    position: relative;
+}
 
+.Kenntnisse-sub-title{
+    color: rgb(85,85,85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
 
+.Kenntnisse-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+.Icon{
+    cursor: default;
+    height: 2rem;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    gap: 0.5rem;
+}
+
+/*Buttons*/
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 400ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#Projekte{
+    position: relative;
+}
+
+.color-container{
+    border-color: rgb(85,85,85);
+    background: rgb(250,250,250);
+}
+
+.projekt-img{
+    border-radius: 2rem;
+    width: 20%;
+    height: 20%;
+}
+
+.project-title{
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn{
+    color: black;
+    border-color: rgb(85,85,85);
+}
