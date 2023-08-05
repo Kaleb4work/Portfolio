@@ -227,10 +227,27 @@ section{
 
 .arrow{
     position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.Arrow{
+    position: absolute;
     right: 5rem;
     bottom: 2.5rem;
     height: 2rem;
     cursor: pointer;
+}
+
+.Vrrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 5.5rem;
+    height: 2rem;
+    cursor: pointer;
+    transform: rotate(180deg);
 }
 
 .details-container{
@@ -313,8 +330,10 @@ article{
 
 .projekt-img{
     border-radius: 2rem;
-    width: 20%;
-    height: 20%;
+    width: 16%;
+    height: 16%;
+    border-color: rgb(85,85,85);
+    background: rgb(250,250,250);
 }
 
 .project-title{
