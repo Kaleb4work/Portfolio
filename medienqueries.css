@@ -1,4 +1,27 @@
 /* Wenn der Screen kleiner als 1200px ist soll er ausgetauscht werden mit dem Hamburger Nav*/
+
+@media screen and (max-width: 1400px){
+    #profil{
+        height: 86vh;
+        margin-bottom: 6rem;
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+    .Vrrow{
+        display: none;
+    }
+    .Arrow{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    .Section_Foto-Container{
+        padding-top: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 1200px){
     #DESKTOP-NAV{
         display: none;
@@ -6,4 +29,87 @@
     #HAMBURGER-NAV{
         display: flex;
     }
+
+    #Kenntnisse, .Kenntnisse-details-container {
+        margin-top: 2rem;
+    }
+    #profil, .section-container {
+        display: block;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .Section_Foto-Container{
+        width: 257px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-container{
+        margin-top: 0;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    footer{
+        padding-bottom: 5rem;
+    }
+    #profil{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 1rem;
+    }
+    .about-container, .contact-info-upper-container, .btn-container{
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .contact-info-container{
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a{
+        font-size: 1rem;
+    }
+    .Kenntnisse-sub-title{
+        font-size: 1.25rem;
+    }
+    .Logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: row;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .Section_Foto-Container{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+        padding-top: 1.5rem;
+    }
+    .Section_text_p2{
+        font-size: 1.5rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+
+    .Section_text_p1{
+        font-size: 1.5rem;
+    }
+    .Section_text_p2{
+        font-size: 1rem;
+    }
+
 }
