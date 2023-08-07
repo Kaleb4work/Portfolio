@@ -144,6 +144,9 @@ section{
     box-sizing: border-box;
     min-height: fit-content;
 }
+#Projekte{
+    margin-top: 5rem;
+}
 
 .section-container{
     display: flex;
