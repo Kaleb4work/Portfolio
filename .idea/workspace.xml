@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="36b19b2c-188c-40a2-8861-25d77af6b904" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +97,7 @@
       <workItem from="1693386272927" duration="1988000" />
       <workItem from="1693388538234" duration="159000" />
       <workItem from="1693388843320" duration="783000" />
+      <workItem from="1693395369324" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="Logo Änderung.">
       <created>1690985299743</created>
@@ -120,11 +120,29 @@
       <option name="project" value="LOCAL" />
       <updated>1691436569793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bug Fix">
+      <created>1693395387465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693395387465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Logo Änderung." />
