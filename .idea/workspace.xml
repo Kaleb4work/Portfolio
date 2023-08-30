@@ -7,8 +7,6 @@
     <list default="true" id="36b19b2c-188c-40a2-8861-25d77af6b904" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,8 @@
       <workItem from="1693372553522" duration="1859000" />
       <workItem from="1693374644533" duration="5612000" />
       <workItem from="1693381193324" duration="4744000" />
-      <workItem from="1693386272927" duration="1876000" />
+      <workItem from="1693386272927" duration="1988000" />
+      <workItem from="1693388538234" duration="159000" />
     </task>
     <task id="LOCAL-00001" summary="Logo Änderung.">
       <created>1690985299743</created>
