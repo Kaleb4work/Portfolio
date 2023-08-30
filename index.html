@@ -22,6 +22,16 @@
                 <li><a href="#Kenntnisse">Erfahrung</a></li>
                 <li><a href="#Projekte">Projekte</a></li>
                 <li><a href="#contact">Kontakt</a></li>
+                <li>
+                    <img
+                            id="modeToggle"
+                            class="icon"
+                            src="assets/theme_light.png"
+                            src-light="assets/theme_light.png"
+                            src-dark="assets/theme_dark.png"
+                            alt="Farb icon"
+                    />
+                </li>
             </ul>
         </div>
     </nav>
@@ -41,10 +51,20 @@
 
         <!--Aufgeklappter Hamburger im geöffnetem Zustand + Menü-->
             <div class="menu-links">
-                <li><a href="#About" onclick="toggleMenu()">Meine Person</a></li>
+                <li><a href="#About" onclick="toggleMenu()">ich</a></li>
                 <li><a href="#Kenntnisse" onclick="toggleMenu()">Erfahrung</a></li>
                 <li><a href="#Projekte" onclick="toggleMenu()">Projekte</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Kontakt</a></li>
+                <li>
+                    <img
+                            id="modeToggle2"
+                            class="icon"
+                            src="assets/theme_light.png"
+                            src-light="assets/theme_light.png"
+                            src-dark="assets/theme_dark.png"
+                            alt="Farb icon"
+                    />
+                </li>
             </div>
         </div>
     </nav>
@@ -53,7 +73,7 @@
     <section id="profil">
 
         <div class="Section_Foto-Container">
-            <img src="assets/Profil-Pic-1,2.jpg" alt="Kaleb Pohl Profilbild">
+            <img class="about-pic" src="assets/Profil-Pic1,2.jpg" alt="Kaleb Pohl Profilbild">
         </div>
         <div class="Section_text">
             <p class="Section_text_p1">Willkommen, ich bin</p>
@@ -61,16 +81,27 @@
             <p class="Section_text_p2">Wirtschaftsinformatik Student der HAW Hamburg</p>
 
             <div class="Socials-Container">
-                <img src="assets/linkedin.png" alt="Mein LinkedIn Profil"
-                     class="icon"
-                     onclick="location.href='https://www.linkedin.com/in/kaleb-pohl-45aa2a242/'">
-                <img src="assets/github.png" alt="Mein GitHub Profil"
-                     class="icon"
-                     onclick="location.href='https://github.com/Kaleb4work'">
+                <img
+                        src="assets/linkedin_light.png"
+                        src-light="assets/linkedin_light.png"
+                        src-dark="assets/linkedin_dark.png"
+                        alt="Mein LinkedIn Profil"
+                        class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/kaleb-pohl-45aa2a242/'">
+
+                <img
+                        src="assets/github_light.png"
+                        src-light="assets/github_light.png"
+                        src-dark="assets/github_dark.png"
+                        alt="Mein GitHub Profil"
+                        class="icon"
+                        onclick="location.href='https://github.com/Kaleb4work'">
             </div>
 
         </div>
         <img src="assets/arrow.png"
+             src-light="assets/arrow.png"
+             src-dark="assets/arrow_dark.png"
              alt="Arrow icon"
              class="Arrow"
              onclick="location.href='./#About'"/>
@@ -93,6 +124,8 @@
                     <div class="details-container">
                         <img
                         src="assets/experience.png"
+                        src-light="assets/experience.png"
+                        src-dark="assets/experience_dark.png"
                         alt="Erfahrung Icon"
                         class="Icon"
                         />
@@ -104,6 +137,8 @@
                     <div class="details-container">
                         <img
                             src="assets/education.png"
+                            src-light="assets/education.png"
+                            src-dark="assets/education_dark.png"
                             alt="Ausbildungs Icon"
                             class="Icon"
                         />
@@ -126,6 +161,8 @@
         </div>
 
         <img src="assets/arrow.png"
+             src-light="assets/arrow.png"
+             src-dark="assets/arrow_dark.png"
              alt="Arrow icon"
              class="arrow"
              onclick="location.href='./#Kenntnisse'"/>
@@ -140,42 +177,66 @@
                     <h2 class="Kenntnisse-sub-title">Frontend</h2>
                     <div class="article-container">
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>HTML</h3>
                                 <p>Grundlagen</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>CSS</h3>
                                 <p>Grundlagen</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>JavaScript</h3>
                                 <p>Grundlagen</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>JavaFX</h3>
                                 <p>Grundlagen</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>React</h3>
                                 <p>Grundlagen</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>Figma</h3>
                                 <p>Grundlagen</p>
@@ -187,42 +248,66 @@
                     <h2 class="Kenntnisse-sub-title">Backend</h2>
                     <div class="article-container">
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>Java</h3>
                                 <p>Fortgeschrittener Anfänger</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>SpringBoot</h3>
                                 <p>Grundlagen</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>GitHub</h3>
                                 <p>Fortgeschrittener Anfänger</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>MySql</h3>
                                 <p>Grundlagen</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>MongoDB</h3>
                                 <p>Grundlagen</p>
                             </div>
                         </article>
                         <article>
-                            <img src="assets/checkmark.png" alt="Experience icon" class="Icon"/>
+                            <img src="assets/checkmark.png"
+                                 src-light="assets/checkmark.png"
+                                 src-dark="assets/checkmark_dark.png"
+                                 alt="Experience icon"
+                                 class="Icon"/>
                             <div>
                                 <h3>Node.Js</h3>
                                 <p>Grundlagen</p>
@@ -234,10 +319,14 @@
             </div>
         </div>
         <img src="assets/arrow.png"
+             src-light="assets/arrow.png"
+             src-dark="assets/arrow_dark.png"
              alt="Arrow icon"
              class="arrow"
              onclick="location.href='./#Projekte'"/>
         <img src="assets/arrow.png"
+             src-light="assets/arrow.png"
+             src-dark="assets/arrow_dark.png"
              alt="Arrow icon"
              class="Vrrow"
              onclick="location.href='./#About'"/>
@@ -268,10 +357,14 @@
             </div>
         </div>
         <img src="assets/arrow.png"
+             src-light="assets/arrow.png"
+             src-dark="assets/arrow_dark.png"
              alt="Arrow icon"
              class="arrow"
              onclick="location.href='./#contact'"/>
         <img src="assets/arrow.png"
+             src-light="assets/arrow.png"
+             src-dark="assets/arrow_dark.png"
              alt="Arrow icon"
              class="Vrrow"
              onclick="location.href='./#Kenntnisse'"/>
@@ -282,15 +375,23 @@
         <h1 class="title">Unter</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
-                <img src="assets/email.png"
-                     alt="Email icon"
-                     class="email-icon"/>
+                <img
+                        src="assets/email.png"
+                        src-light="assets/email.png"
+                        src-dark="assets/email_dark.png"
+                        alt="Email icon"
+                        class="Icon"
+                />
                 <p> <a href="mailto:Kaleb.Pohl@gmx.de">Kaleb.Pohl@gmx.de</a></p>
             </div>
             <div class="contact-info-container">
-                <img src="assets/linkedin.png" alt="Mein LinkedIn Profil"
-                     class="icon"
-                     onclick="location.href='https://www.linkedin.com/in/kaleb-pohl-45aa2a242/'">
+                <img
+                        src="assets/linkedin_light.png"
+                        src-light="assets/linkedin_light.png"
+                        src-dark="assets/linkedin_dark.png"
+                        alt="Mein LinkedIn Profil"
+                        class="icon linkedin-icon"
+                        onclick="location.href='https://www.linkedin.com/in/kaleb-pohl-45aa2a242/'">
             </div>
         </div>
     </section>
@@ -301,7 +402,7 @@
                     <li><a href="#About">Meine Person</a></li>
                     <li><a href="#Kenntnisse">Erfahrung</a></li>
                     <li><a href="#Projekte">Projekte</a></li>
-                    <li><a href="#Contact">Kontakt</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </div>
         </nav>
